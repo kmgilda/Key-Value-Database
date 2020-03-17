@@ -14,14 +14,14 @@ import java.util.Scanner;
  *
  * @author Kshiteej
  */
-public class KeyValueDatabaseAssignment {
+public class KeyValueDatabaseArrayList {
 
     /**
      * @param args the command line arguments
      */
     private ArrayList<Datum> database;
     
-    public KeyValueDatabaseAssignment() {
+    public KeyValueDatabaseArrayList() {
         database = new ArrayList();
     }
     
@@ -82,7 +82,7 @@ public class KeyValueDatabaseAssignment {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        KeyValueDatabaseAssignment dumdum = new KeyValueDatabaseAssignment();
+        KeyValueDatabaseArrayList dumdum = new KeyValueDatabaseArrayList();
         while (true) {
             System.out.println("Welcome to a basic CRUD Key - Value Pair database.\n Press 1 to insert a new entry \n Press 2 to search for a specific record based on its key \n Press 3 to update a record \n Press 4 to delete a record \n Press 5 to display all records. \n Press 6 to exit \n Press 7 to print to file.");
             Scanner sc = new Scanner(System.in);
